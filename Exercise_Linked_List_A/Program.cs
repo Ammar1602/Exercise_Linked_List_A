@@ -115,9 +115,14 @@ namespace Exercise_Linked_List_A
                             break;
                         case '4':
                             return;
-                        default
+                        default:
+                            {
+                                Console.WriteLine("Invalid Option");
+                                break ;
+                            }
                     }
                 }
+                
             }
         }
     }
