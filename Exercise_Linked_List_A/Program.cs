@@ -122,7 +122,10 @@ namespace Exercise_Linked_List_A
                             }
                     }
                 }
-                
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
             }
         }
     }
