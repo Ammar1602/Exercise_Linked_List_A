@@ -59,7 +59,7 @@ namespace Exercise_Linked_List_A
                 Console.Write(LAST.rollNumber + "     " + LAST.name + "\n");
             }
         }
-        public void firstNoed()
+        public void firstNode()
         {
             if (listEmpty())
                 Console.WriteLine("\nList Is Empty");
@@ -104,9 +104,18 @@ namespace Exercise_Linked_List_A
                                 {
                                     Console.WriteLine("\nRecord founf");
                                     Console.WriteLine("\nRoll number: " + curr.rollNumber);
-                                    Console.WriteLine("\nName: " + )
+                                    Console.WriteLine("\nName: " + curr.name);
                                 }
                             }
+                            break ;
+                        case '3':
+                            {
+                                obj.firstNode();
+                            }
+                            break;
+                        case '4':
+                            return;
+                        default
                     }
                 }
             }
