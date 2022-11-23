@@ -53,11 +53,18 @@ namespace Exercise_Linked_List_A
                 currentNode = LAST.next;
                 while (currentNode != LAST)
                 {
-                    Console.Write(currentNode.rollNumber + "     " + currentNode.name = "\n");
+                    Console.Write(currentNode.rollNumber + "     " + currentNode.name + "\n");
+                    currentNode = currentNode.next;
                 }
                 Console.Write(LAST.rollNumber + "     " + LAST.name + "\n");
             }
         }
-
+        public void firstNoed()
+        {
+            if (listEmpty())
+                Console.WriteLine("\nList Is Empty");
+            else
+                Console.WriteLine("\nThe First Record In The List Is:\n\n" + LAST.next.rollNumber + "    " + LAST.next.name);
+        }
     }
 }
